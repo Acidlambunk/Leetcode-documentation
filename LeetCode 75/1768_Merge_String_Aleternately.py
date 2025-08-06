@@ -14,4 +14,13 @@ class Solution(object):
                 result.append(word2[i])
             i += 1
         return ''.join(result)
-        
+
+'''
+How it works:
+1. Initialize an empty list `result` to store the merged characters.
+2. Use a while loop that continues as long as there are characters left in either `word1` or `word2`.
+3. Inside the loop, check if the current index `i` is within the bounds of `word1`. If it is, append the character at that index to `result`.
+4. Similarly, check if `i` is within the bounds of `word2` and append its character if it exists.
+5. Increment `i` by 1 after each iteration.
+6. Finally, join the list `result` into a string and return it.
+'''
