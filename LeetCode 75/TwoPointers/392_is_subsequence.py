@@ -9,9 +9,9 @@ class Solution:
         return i == len(s)
             
 '''How it works:
-1. Initialize two pointers `i` and `j` to 0, representing the current index in `s` and `t`, respectively.
+1. Initialize two pointers repr(i) and repr(j) to 0, representing the current index in repr(s) and repr(t), respectively.
 2. Use a while loop to iterate through both strings until either pointer reaches the end of its respective string.
-3. If the characters at the current indices match (`s[i] == t[j]`), increment the pointer `i` to check the next character in `s`.
-4. Always increment the pointer `j` to continue checking characters in `t`.
-5. After the loop, check if `i` has reached the length of `s`. If it has, it means all characters in `s` were found in `t` in order, so return `True`. Otherwise, return `False`.
+3. If the characters at the current indices match (repr(s[i]) == repr(t[j])), increment the pointer repr(i) to check the next character in repr(s).
+4. Always increment the pointer repr(j) to continue checking characters in repr(t).
+5. After the loop, check if repr(i) has reached the length of repr(s). If it has, it means all characters in repr(s) were found in repr(t) in order, so return True. Otherwise, return False.
 '''
